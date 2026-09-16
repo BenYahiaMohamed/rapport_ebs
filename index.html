@@ -261,6 +261,10 @@
     background: #fffbeb;
     border-left-color: var(--accent);
   }
+  .callout.critical {
+    background: #fef2f2;
+    border-left-color: var(--danger);
+  }
   .callout-title {
     font-weight: 700;
     margin-bottom: 6px;
@@ -300,6 +304,16 @@
     margin-bottom: 6px;
   }
 
+  a.resource-link {
+    color: var(--info);
+    text-decoration: underline;
+    font-weight: 600;
+    word-break: break-all;
+  }
+  a.resource-link:hover {
+    color: var(--primary);
+  }
+
   footer {
     border-top: 1px solid var(--border-color);
     margin-top: 60px;
@@ -329,7 +343,7 @@
     <span class="cover-badge">Rapport Stratégique & Audit Technique Approfondi</span>
     <h1>ESPIMA BUSINESS SCHOOL (EBS)<br>Audit SEO Technique, Local, International & Afrique</h1>
     <div class="cover-subtitle">
-      Plan directeur d'acquisition organique, d'ingénierie sémantique et de conquête de l'Afrique subsaharienne pour l'enseignement supérieur privé en Tunisie.
+      Plan directeur d'acquisition organique, d'ingénierie sémantique, d'AEO/GEO et de conquête de l'Afrique subsaharienne pour l'enseignement supérieur privé en Tunisie.
     </div>
     <div class="cover-meta-grid">
       <div class="cover-meta-item">
@@ -362,21 +376,19 @@
       <a href="#sec-local">5. Local SEO Tunis & Grand Tunis (Google Maps)</a>
       <a href="#sec-africa">6. Étude de Marché Recherche Afrique (19 Pays)</a>
       <a href="#sec-model">7. Modèle Quantitatif d'Opportunité Marché</a>
-      <a href="#sec-country">8. Stratégies Pays Dédiées (Subsahariennes)</a>
+      <a href="#sec-country">8. Stratégies Pays Dédiées (Landing Pages, Blogs & Netlinking Local)</a>
       <a href="#sec-keywords">9. Cartographie Sémantique & Funnel (Keyword Map)</a>
-      <a href="#sec-prog">10. Optimisation Sémantique des Programmes EBS</a>
-      <a href="#sec-funnel">11. Entonnoir de Conversion Étudiant International</a>
-      <a href="#sec-aeo">12. AEO (Answer Engine Optimization) & FAQ IA</a>
-      <a href="#sec-geo">13. GEO (Generative Engine Optimization : LLM & RAG)</a>
-      <a href="#sec-comp">14. Benchmark Concurrentiel Approfondi</a>
-      <a href="#sec-backlinks">15. Stratégie d'Acquisition de Backlinks Éthiques</a>
-      <a href="#sec-eeat">16. Audit E-E-A-T & Crédibilité Institutionnelle</a>
-      <a href="#sec-matrix">17. Matrice de Priorisation Technique (Dev Ready)</a>
-      <a href="#sec-roadmap12">18. Feuille de Route Éditoriale & Contenus (12 Mois)</a>
-      <a href="#sec-plan90">19. Plan d'Action d'Urgence à 90 Jours</a>
-      <a href="#sec-cal12">20. Plan Opérationnel Mensuel M1 à M12</a>
-      <a href="#sec-kpi">21. Tableau de Bord & Métriques de Performance (KPIs)</a>
-      <a href="#sec-sources">22. Sources Officielles, Données & Méthodologie</a>
+      <a href="#sec-funnel">10. Entonnoir de Conversion Étudiant International</a>
+      <a href="#sec-aeo">11. AEO & GEO : Domination des Requêtes Éducation (« Meilleure Fac Privée »)</a>
+      <a href="#sec-comp">12. Benchmark Concurrentiel Approfondi</a>
+      <a href="#sec-backlinks">13. Répertoire Exhaustif des Backlinks & Annuaires (Gratuits & Payants)</a>
+      <a href="#sec-eeat">14. Audit E-E-A-T & Crédibilité Institutionnelle</a>
+      <a href="#sec-matrix">15. Matrice de Priorisation Technique (Dev Ready)</a>
+      <a href="#sec-roadmap12">16. Feuille de Route Éditoriale & Contenus (12 Mois)</a>
+      <a href="#sec-plan90">17. Plan d'Action d'Urgence à 90 Jours</a>
+      <a href="#sec-cal12">18. Plan Opérationnel Mensuel M1 à M12</a>
+      <a href="#sec-kpi">19. Tableau de Bord & Métriques de Performance (KPIs)</a>
+      <a href="#sec-sources">20. Sources Officielles, Données & Liens Référents</a>
     </div>
   </div>
 
@@ -384,7 +396,7 @@
   <div class="section-block" id="sec-exec">
     <h2>1. Synthèse Exécutive & Scorecard</h2>
     <p>
-      L'<strong>ESPIMA Business School (EBS)</strong>, fondée en 2013 et agréée par le Ministère de l'Enseignement Supérieur et de la Recherche Scientifique tunisien (Agrément N° 2013/02), dispose d'un positionnement académique à forte valeur ajoutée : l'intégration systématique de l'<strong>Intelligence Artificielle</strong> dans tous ses parcours de gestion et de technologie, couplée à un catalogue de <strong>plus de 190 certifications internationales</strong> (Google, IBM, Cisco, Bloomberg, Harvard via partenaires) et des parcours de bi-diplomation (France, Canada, Italie).
+      L'<strong>ESPIMA Business School (EBS)</strong>, fondée en 2013 et agréée par le Ministère de l'Enseignement Supérieur et de la Recherche Scientifique tunisien (Agrément N° 2013/02), dispose d'un positionnement académique d'avant-garde : l'intégration transversale de l'<strong>Intelligence Artificielle</strong> dans tous ses cursus, couplée à un catalogue de <strong>plus de 190 certifications internationales</strong> (Google, IBM, Cisco, Bloomberg, Harvard via partenaires) et des parcours de bi-diplomation (France, Canada, Italie).
     </p>
     <p>
       Cependant, l'audit SEO approfondi révèle un <strong>décalage structurel critique</strong> entre l'excellence de son offre académique et son infrastructure numérique. Le site web (<code>https://ebs.tn/en</code> et versions linguistiques) souffre d'angles morts techniques majeurs : absence de balisage multilingue <code>hreflang</code>, cannibalisme sémantique entre les versions de langue, défaillances de canonicalisation sur les filtres de programmes (<code>?program=finance</code>), absence quasi-totale de données structurées pour l'enseignement supérieur (<code>EducationalOrganization</code>, <code>Course</code>), et un entonnoir de conversion international fracturé qui bloque l'enrôlement des étudiants subsahariens.
@@ -541,7 +553,7 @@
 
     <h3>Analyse des Données Structurées (Schema.org / JSON-LD)</h3>
     <p>
-      Les moteurs de recherche modernes et les architectures LLM (SearchGPT, Gemini) dépendent du graphe de connaissances sémantique. Actuellement, le site d'EBS n'exploite que des métadonnées de base générées par défaut, ignorant les schémas essentiels de l'enseignement supérieur.
+      Les moteurs de recherche modernes et les architectures LLM dépendent du graphe de connaissances sémantique. Actuellement, le site d'EBS n'exploite que des métadonnées de base générées par défaut, ignorant les schémas essentiels de l'enseignement supérieur.
     </p>
 
     <div class="table-responsive">
@@ -585,17 +597,11 @@
             <td><span class="badge badge-warning">Incohérent</span></td>
             <td>Indispensable pour guider les robots à travers la hiérarchie Catégorie > Diplôme > Parcours.</td>
           </tr>
-          <tr>
-            <td><code>LocalBusiness</code></td>
-            <td><strong>NON PERTINENT</strong></td>
-            <td>À éviter au profit de <code>CollegeOrUniversity</code></td>
-            <td>EBS n'est pas un commerce de proximité générique mais une institution universitaire d'envergure. Utiliser <code>EducationalOrganization</code>.</td>
-          </tr>
         </tbody>
       </table>
     </div>
 
-    <h4>Template JSON-LD Recommandé pour l'Université (À insérer sur la page d'accueil)</h4>
+    <h4>Template JSON-LD Recommandé pour l'Université</h4>
     <pre><code>{
   "@context": "https://schema.org",
   "@type": "CollegeOrUniversity",
@@ -675,7 +681,7 @@
     <h3>1. Audit de la Fiche Google Business Profile (GBP)</h3>
     <ul>
       <li><strong>Catégorie Primaire Recommandée :</strong> <em>« Université privée »</em> (Primary) + Catégories Secondaires : <em>« Établissement d'enseignement supérieur »</em>, <em>« École de commerce »</em>, <em>« Centre de formation continue »</em>.</li>
-      <li><strong>Homogénéité NAP (Nom, Adresse, Téléphone) :</strong> Correction immédiate nécessaire. Certains annuaires tunisiens listent l'adresse sous <em>« Le Kram »</em>, d'autres sous <em>« Berges du Lac 3 »</em>, et d'autres sous <em>« Tunis »</em>. Unifier formellement sous : <code>ESPIMA Business School, 10 Rue Socrate, Les Berges du Lac 3, 2015 Le Kram, Tunis</code>.</li>
+      <li><strong>Homogénéité NAP (Nom, Adresse, Téléphone) :</strong> Correction immédiate requise. Unifier formellement sous : <code>ESPIMA Business School, 10 Rue Socrate, Les Berges du Lac 3, 2015 Le Kram, Tunis</code>.</li>
       <li><strong>Gestion des Avis (Reviews) :</strong> EBS compte moins de 50 avis publics. Mise en place d'un programme d'acquisition d'avis vérifiés auprès des étudiants certifiés et diplômés pour atteindre 150+ avis avec une note &gt; 4.6/5.</li>
     </ul>
 
@@ -705,7 +711,7 @@
           </tr>
           <tr>
             <td><strong>National (Tunisie Globale)</strong></td>
-            <td><code>meilleure université privée tunisie</code>, <code>licence ia tunisie</code>, <code>frais université privée tunisie</code></td>
+            <td><code>meilleure université privée tunisie</code>, <code>meilleure fac privée tunisie</code>, <code>frais université privée tunisie</code></td>
             <td>Informationnelle / Comparaison</td>
             <td>Page d'Accueil + Comparateur de Cursus</td>
           </tr>
@@ -722,9 +728,6 @@
     </p>
 
     <h3>Modèle de Pondération Algorithmique d'Opportunité (Index 100)</h3>
-    <p>
-      Le score d'opportunité composite EBS est calculé selon la formule vectorielle suivante :
-    </p>
     <div class="callout">
       <strong>Score EBS (%) = (Mobilité Sortante × 20%) + (Présence Historique en Tunisie × 20%) + (Pression Démographique Supérieure × 15%) + (Alignement Linguistique FR/EN × 10%) + (Dynamique de Recherche Digitale × 15%) + (Affinité Cursus EBS Tech/Business × 10%) + (Accessibilité Visa & Liaisons Aériennes × 10%)</strong>
     </div>
@@ -919,43 +922,97 @@
     </div>
   </div>
 
-  <!-- SECTION 8: COUNTRY SEO STRATEGY -->
+  <!-- SECTION 8: COUNTRY SEO STRATEGY (LANDINGS, BLOGS & NETLINKING PAYS) -->
   <div class="section-block" id="sec-country">
-    <h2>8. Stratégies Pays Dédiées (Non-Doorway Content Architecture)</h2>
+    <h2>8. Stratégies Pays Dédiées : Landing Pages, Blogs Satellites & Netlinking Local</h2>
     <p>
-      <strong>Avertissement Algorithmique Google :</strong> Pour éviter la pénalité pour « Pages Satellites » (Doorway Pages), EBS ne doit en aucun cas créer des pages dupliquées où seul le nom du pays changerait. Chaque landing page pays doit obligatoirement intégrer des <em>informations tangibles et uniques</em> : équivalence des diplômes (Baccalauréats locaux), accords consulaires, modalités de transfert bancaire (zone UEMOA / CEMAC), et témoignages vidéo réels d'alumni de cette nationalité.
+      Pour dominer les marchés subsahariens sans encourir de pénalité algorithmique pour pages satellites (« Doorway Pages »), EBS doit déployer un <strong>triptyque d'acquisition par pays</strong> : 
+      1) Une <strong>Landing Page Institutionnelle</strong> ultra-contextualisée, 
+      2) Un <strong>Cluster de Blogs Pédagogiques</strong> répondant aux interrogations locales réelles, 
+      3) Des <strong>Backlinks d'Autorité Locale</strong> captés sur des sites de presse, d'orientation et de blogs influents du pays concerné.
     </p>
 
-    <h3>Exemple Pilote 1 : Côte d'Ivoire (Priorité Tier A)</h3>
+    <!-- PAYS 1 : CÔTE D'IVOIRE -->
+    <h3>1. Côte d'Ivoire (Marché Prioritaire Tier A)</h3>
     <div class="callout">
+      <h4>A. Landing Page Stratégique Dédiée</h4>
+      <p><strong>URL Canonique :</strong> <code>https://ebs.tn/etudier-en-tunisie-etudiants-ivoiriens/</code></p>
+      <p><strong>Contenu Unique :</strong> Reconnaissance du Baccalauréat ivoirien (Séries A, C, D, G2), dispense d'obligation de visa court séjour pour entrer en Tunisie (présentation de la lettre d'inscription EBS à l'embarquement à Abidjan Port-Bouët), partenariats bancaires zone UEMOA (SGBCI, Ecobank, Coris Bank) pour le virement des frais sans blocage de devises.</p>
+      <p><strong>CTA Principal :</strong> « Vérifier mon éligibilité avec mon Bac ivoirien & Pré-inscription immédiate ».</p>
+
+      <h4>B. Articles de Blog Dédiés (Cluster Sémantique Abidjan / CI)</h4>
       <ul>
-        <li><strong>URL Canonique Dédiée :</strong> <code>https://ebs.tn/etudier-en-tunisie-etudiants-ivoiriens/</code></li>
-        <li><strong>Persona Cible :</strong> « Franck, 19 ans, titulaire d'un Bac C ou D à Abidjan (Cocody / Yopougon), souhaitant faire une Licence Informatique & IA ou Management sans affronter la saturation et les grèves des universités publiques locales, ni le coût exorbitant d'une école en France. »</li>
-        <li><strong>Intention de Recherche :</strong> Comparative & Décisionnelle (Recherche de filières reconnues, sécurisées et débouchant sur des certifications d'élite).</li>
-        <li><strong>Contenu Unique Indispensable :</strong>
-          <ul>
-            <li>Procédure d'admission directe avec le Baccalauréat ivoirien homologué par le MESRS.</li>
-            <li>Précision sur la dispense de visa court séjour pour les ressortissants ivoiriens entrant en Tunisie (entrée avec lettre de pré-inscription EBS).</li>
-            <li>Guide de paiement des frais de scolarité via les banques partenaires UEMOA (SGBCI, Ecobank, BICICI) sans blocage de devises.</li>
-            <li>Témoignage vidéo d'un étudiant ivoirien d'EBS certifié IBM / Google en cours de scolarité à Tunis.</li>
-          </ul>
-        </li>
-        <li><strong>Call to Action (CTA) Principal :</strong> <em>« Demander l'équivalence de mon Bac ivoirien & Pré-inscription gratuite en 24h »</em>.</li>
+        <li><code>/blog/equivalence-bac-ivoirien-universite-privee-tunisie/</code> : Guide pas-à-pas pour faire homologuer son relevé de notes du Bac ivoirien auprès du MESRS tunisien.</li>
+        <li><code>/blog/etudier-a-tunis-depuis-abidjan-cout-vie-logement-budget/</code> : Comparatif du coût de la vie mensuel entre Cocody / Yopougon et Le Kram / Lac 3 à Tunis (loyer, nourriture, transports en FCFA vs TND).</li>
+        <li><code>/blog/avis-etudiants-ivoiriens-ebs-tunis-temoignages-ia/</code> : Interviews vidéo d'alumni ivoiriens en poste à Abidjan après leur cursus certifié Google/IBM à EBS.</li>
+      </ul>
+
+      <h4>C. Sites Cibles pour Backlinks Locaux (Côte d'Ivoire)</h4>
+      <ul>
+        <li><strong>Portails d'Orientation & Éducation CI :</strong> <em>Grandes-Ecoles.ci</em>, <em>Educarriere.ci</em>, <em>Bac.mesrs-ci.net</em> (pages orientation internationale).</li>
+        <li><strong>Médias Économiques & Presse Abidjan :</strong> <em>Fratmat.info</em> (Fraternité Matin), <em>Abidjan.net</em> (rubrique Éducation/Formation), <em>Koaci.com</em>, <em>Linfodrome.ci</em>.</li>
+        <li><strong>Blogs d'Emploi & Jeunesse :</strong> <em>Rivoire.ci</em>, blogs spécialisés d'alumni de l'INP-HB et des bacheliers d'Abidjan.</li>
       </ul>
     </div>
 
-    <h3>Exemple Pilote 2 : Cameroun (Priorité Tier A)</h3>
+    <!-- PAYS 2 : CAMEROUN -->
+    <h3>2. Cameroun (Marché Prioritaire Tier A)</h3>
     <div class="callout">
+      <h4>A. Landing Page Stratégique Dédiée</h4>
+      <p><strong>URL Canonique :</strong> <code>https://ebs.tn/etudier-en-tunisie-etudiants-camerounais/</code></p>
+      <p><strong>Contenu Unique :</strong> Démarche complète d'obtention de l'attestation de pré-inscription pour le dossier visa auprès du Consulat / Ambassade de Tunisie à Yaoundé, passerelles de bi-diplomation au Canada (UQAT) et en France pour les titulaires d'une Licence camerounaise, grille de conversion FCFA / Dinars tunisiens.</p>
+      <p><strong>CTA Principal :</strong> « Télécharger le guide d'admission pour étudiants camerounais ».</p>
+
+      <h4>B. Articles de Blog Dédiés (Cluster Yaoundé / Douala)</h4>
       <ul>
-        <li><strong>URL Canonique Dédiée :</strong> <code>https://ebs.tn/etudier-en-tunisie-etudiants-camerounais/</code></li>
-        <li><strong>Persona Cible :</strong> « Audrey, 22 ans, titulaire d'une Licence en Sciences Économiques à Yaoundé II Soa, cherchant un Master en Ingénierie Financière ou Marketing Digital & IA avec possibilité de poursuivre en France ou au Canada. »</li>
-        <li><strong>Contenu Unique Indispensable :</strong>
-          <ul>
-            <li>Accompagnement complet pour l'obtention de l'autorisation d'étude et visa auprès de l'Ambassade de Tunisie à Yaoundé.</li>
-            <li>Détail des passerelles EBS avec les universités partenaires (UQAT Canada, grandes écoles en France) permettant une double mobilité.</li>
-            <li>Budget mensuel réaliste de logement à Tunis (Lac 3 / Kram) comparé aux coûts à Paris ou Montréal.</li>
-          </ul>
-        </li>
+        <li><code>/blog/procedure-visa-etudiant-tunisie-au-cameroun-yaounde/</code> : Documents indispensables, délais d'instruction et justificatifs financiers exigés pour l'autorisation d'étude.</li>
+        <li><code>/blog/pourquoi-choisir-tunisie-apres-licence-au-cameroun/</code> : Analyse comparative : coût et rentabilité d'un Master IA à Tunis vs une école privée en France ou au Canada.</li>
+      </ul>
+
+      <h4>C. Sites Cibles pour Backlinks Locaux (Cameroun)</h4>
+      <ul>
+        <li><strong>Portails Éducation & Orientation CMR :</strong> <em>CameroonDesk.com</em>, <em>Mina7 Cameroun</em>, <em>MonConcours.cm</em>.</li>
+        <li><strong>Presse d'Affaires & Actualités :</strong> <em>InvestirAuCameroun.com</em>, <em>Cameroon-Tribune.cm</em>, <em>ActuCameroun.com</em>, <em>JournalDuCameroun.com</em>.</li>
+      </ul>
+    </div>
+
+    <!-- PAYS 3 : SÉNÉGAL -->
+    <h3>3. Sénégal (Marché Prioritaire Tier A)</h3>
+    <div class="callout">
+      <h4>A. Landing Page Stratégique Dédiée</h4>
+      <p><strong>URL Canonique :</strong> <code>https://ebs.tn/etudier-en-tunisie-etudiants-senegalais/</code></p>
+      <p><strong>Contenu Unique :</strong> Procédure directe avec le Bac sénégalais, ligne directe quotidienne Dakar AIBD - Tunis Carthage via Tunisair, accord de coopération universitaire tuniso-sénégalais, insertion professionnelle dans les cabinets de Dakar.</p>
+
+      <h4>B. Articles de Blog Dédiés (Cluster Dakar)</h4>
+      <ul>
+        <li><code>/blog/etudiants-senegalais-en-tunisie-visa-titre-sejour-bourse/</code> : Tout savoir sur la carte de séjour étudiant à Tunis pour les ressortissants sénégalais.</li>
+        <li><code>/blog/master-fintech-ia-tunis-debouches-dakar-banque/</code> : Pourquoi les recruteurs bancaires à Dakar recherchent la double compétence finance-IA d'EBS.</li>
+      </ul>
+
+      <h4>C. Sites Cibles pour Backlinks Locaux (Sénégal)</h4>
+      <ul>
+        <li><strong>Portails Éducation & Orientation SN :</strong> <em>Academie-Plus.com</em>, <em>EtudiantSenegalais.net</em>, <em>Samabac.com</em>.</li>
+        <li><strong>Presse & Médias Dakar :</strong> <em>Senenews.com</em>, <em>Senego.com</em>, <em>LeSoleil.sn</em>, <em>Dakaractu.com</em>.</li>
+      </ul>
+    </div>
+
+    <!-- PAYS 4 : RDC -->
+    <h3>4. République Démocratique du Congo - RDC (Marché Tier B à Fort Volume)</h3>
+    <div class="callout">
+      <h4>A. Landing Page Stratégique Dédiée</h4>
+      <p><strong>URL Canonique :</strong> <code>https://ebs.tn/etudier-en-tunisie-etudiants-congolais-rdc/</code></p>
+      <p><strong>Contenu Unique :</strong> Accueil des diplômés d'État de RDC (Exetat), encadrement personnalisé pour le logement à Tunis, cursus accélérés en développement informatique et IA.</p>
+
+      <h4>B. Articles de Blog Dédiés (Cluster Kinshasa / Lubumbashi)</h4>
+      <ul>
+        <li><code>/blog/etudier-en-tunisie-avec-diplome-etat-rdc/</code> : Équivalence du diplôme d'État congolais pour intégrer une université privée en Tunisie.</li>
+        <li><code>/blog/rdc-vers-tunisie-billet-avion-trajet-kinshasa-tunis/</code> : Préparer son départ de Kinshasa vers Tunis : formalités, transit et accueil aéroport par EBS.</li>
+      </ul>
+
+      <h4>C. Sites Cibles pour Backlinks Locaux (RDC)</h4>
+      <ul>
+        <li><strong>Portails Orientation & Études RDC :</strong> <em>RDCEtudes.com</em> (acteur leader d'orientation à Kinshasa), <em>Educarriere-rdc.com</em>.</li>
+        <li><strong>Médias d'Information Congolais :</strong> <em>Actualite.cd</em>, <em>Politico.cd</em>, <em>Zoom-eco.net</em>.</li>
       </ul>
     </div>
   </div>
@@ -982,21 +1039,30 @@
         </thead>
         <tbody>
           <tr>
-            <td><code>université privée tunisie</code></td>
+            <td><code>meilleure université privée tunisie</code></td>
             <td>FR</td>
             <td>Tunisie / Maghreb</td>
             <td>MOFU</td>
             <td><code>/</code> (Accueil)</td>
-            <td><code>/universite-privee-tunisie/</code></td>
+            <td><code>/meilleure-universite-privee-tunisie/</code></td>
             <td><span class="badge badge-danger">Haute</span></td>
           </tr>
           <tr>
-            <td><code>université privée tunis</code></td>
+            <td><code>meilleure fac privée tunis</code></td>
             <td>FR</td>
             <td>Tunisie (Locale)</td>
             <td>BOFU</td>
             <td><code>/</code> (Accueil)</td>
             <td><code>/universite-privee-tunis/</code></td>
+            <td><span class="badge badge-danger">Haute</span></td>
+          </tr>
+          <tr>
+            <td><code>quelle université privée choisir en tunisie</code></td>
+            <td>FR</td>
+            <td>Afrique / Maghreb</td>
+            <td>TOFU</td>
+            <td>Aucune</td>
+            <td><code>/blog/guide-choisir-universite-privee-tunisie/</code></td>
             <td><span class="badge badge-danger">Haute</span></td>
           </tr>
           <tr>
@@ -1027,24 +1093,6 @@
             <td><span class="badge badge-danger">Haute</span></td>
           </tr>
           <tr>
-            <td><code>licence intelligence artificielle tunisie</code></td>
-            <td>FR</td>
-            <td>Tunisie / Afrique</td>
-            <td>BOFU</td>
-            <td><code>/licences?program=finance</code> (bug)</td>
-            <td><code>/licence-informatique-intelligence-artificielle/</code></td>
-            <td><span class="badge badge-danger">Critique</span></td>
-          </tr>
-          <tr>
-            <td><code>master marketing digital tunis</code></td>
-            <td>FR</td>
-            <td>Tunisie / Afrique</td>
-            <td>BOFU</td>
-            <td>Section Home</td>
-            <td><code>/master-marketing-digital-ia/</code></td>
-            <td><span class="badge badge-warning">Moyenne</span></td>
-          </tr>
-          <tr>
             <td><code>study computer science in tunisia</code></td>
             <td>EN</td>
             <td>Ghana / Nigeria / Rwanda</td>
@@ -1067,71 +1115,9 @@
     </div>
   </div>
 
-  <!-- SECTION 10: PROGRAMME SEO OPTIMIZATION -->
-  <div class="section-block" id="sec-prog">
-    <h2>10. Optimisation Sémantique des Programmes EBS</h2>
-    <p>
-      Chaque filière d'EBS doit disposer d'une <strong>architecture on-page irréprochable</strong>, éradiquant les URLs paramétrées et valorisant l'avantage compétitif unique d'EBS : <em>l'intégration obligatoire de l'IA et des certifications industrielles</em>.
-    </p>
-
-    <h3>1. Licence Informatique & IA (Génie Logiciel & Systèmes d'Information)</h3>
-    <div class="callout">
-      <ul>
-        <li><strong>Primary Keyword :</strong> <code>licence informatique intelligence artificielle tunisie</code></li>
-        <li><strong>Balise Title :</strong> Licence Informatique & IA à Tunis | Espima Business School (EBS)</li>
-        <li><strong>Meta Description :</strong> Intégrez la Licence Informatique & IA d'EBS à Tunis. Bac+3 agréé par l'État tunisien, certifications professionnelles IBM, Cisco & Google incluses. Inscrivez-vous.</li>
-        <li><strong>Structure Balisage Hn :</strong>
-          <ul>
-            <li><code>&lt;h1&gt;Licence Informatique — Génie Logiciel & Option Intelligence Artificielle à Tunis&lt;/h1&gt;</code></li>
-            <li><code>&lt;h2&gt;Programme Académique : Du Code aux Modèles d'Apprentissage Automatique&lt;/h2&gt;</code></li>
-            <li><code>&lt;h2&gt;Certifications Internationales Incluses (Google Cloud, IBM AI, Cisco)&lt;/h2&gt;</code></li>
-            <li><code>&lt;h2&gt;Débouchés Métiers & Poursuite d'Études en Master (Tunisie & International)&lt;/h2&gt;</code></li>
-            <li><code>&lt;h2&gt;Conditions d'Admission & Équivalences Bac (Tunisie & Afrique)&lt;/h2&gt;</code></li>
-          </ul>
-        </li>
-        <li><strong>Données Structurées :</strong> Schema <code>Course</code> avec propriétés <code>provider</code>, <code>educationalCredentialAwarded</code>, <code>hasCourseInstance</code>.</li>
-      </ul>
-    </div>
-
-    <h3>2. Master en Ingénierie Financière (Finance Avancée & FinTech)</h3>
-    <div class="callout">
-      <ul>
-        <li><strong>Primary Keyword :</strong> <code>master ingenierie financiere tunisie</code></li>
-        <li><strong>Balise Title :</strong> Master Ingénierie Financière & FinTech Tunis | ESPIMA Business School</li>
-        <li><strong>Meta Description :</strong> Master professionnel en ingénierie financière à Tunis. Maîtrisez la modélisation financière, les algorithmes de trading et la certification Bloomberg à EBS.</li>
-        <li><strong>Structure Balisage Hn :</strong>
-          <ul>
-            <li><code>&lt;h1&gt;Master Professionnel en Ingénierie Financière & FinTech à Tunis&lt;/h1&gt;</code></li>
-            <li><code>&lt;h2&gt;Compétences Clés : Analyse Quantitative, Risques de Marché et Outils IA&lt;/h2&gt;</code></li>
-            <li><code>&lt;h2&gt;Préparation aux Certifications Bloomberg & Gestion d'Actifs&lt;/h2&gt;</code></li>
-            <li><code>&lt;h2&gt;Partenariats Internationaux & Double Diplôme (France / Canada)&lt;/h2&gt;</code></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-
-    <h3>3. Licence Informatique Option Cybersécurité</h3>
-    <div class="callout">
-      <ul>
-        <li><strong>Primary Keyword :</strong> <code>licence cybersecurite tunisie</code></li>
-        <li><strong>Balise Title :</strong> Licence Cybersécurité & Réseaux à Tunis | Espima Business School</li>
-        <li><strong>Meta Description :</strong> Devenez expert en sécurité des systèmes d'information. Licence en cybersécurité à Tunis avec certifications Fortinet, Cisco et Scrum intégrées.</li>
-      </ul>
-    </div>
-
-    <h3>4. Master Marketing Digital & IA (Marketing 5.0)</h3>
-    <div class="callout">
-      <ul>
-        <li><strong>Primary Keyword :</strong> <code>master marketing digital ia tunis</code></li>
-        <li><strong>Balise Title :</strong> Master Marketing Digital & IA à Tunis | ESPIMA Business School</li>
-        <li><strong>Meta Description :</strong> Formez-vous au Marketing Digital 5.0 augmenté par l'IA générative, au Growth Marketing et au CRM à Tunis. Double compétence stratégique et technique.</li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- SECTION 11: INTERNATIONAL STUDENT FUNNEL -->
+  <!-- SECTION 10: INTERNATIONAL STUDENT FUNNEL -->
   <div class="section-block" id="sec-funnel">
-    <h2>11. Entonnoir de Conversion Étudiant International</h2>
+    <h2>10. Entonnoir de Conversion Étudiant International</h2>
     <p>
       Le parcours de conversion d'un étudiant international est jalonné de doutes administratifs, financiers et logistiques majeurs. Si le site web n'apporte pas de réponses immédiates, le prospect abandonne la navigation pour se tourner vers un concurrent ou un intermédiaire officieux.
     </p>
@@ -1195,41 +1181,50 @@
     </div>
   </div>
 
-  <!-- SECTION 12 & 13: AEO & GEO (IA SEARCH OPTIMIZATION) -->
+  <!-- SECTION 11: AEO & GEO GENERAL SEARCH QUESTIONS -->
   <div class="section-block" id="sec-aeo">
-    <h2>12 & 13. AEO (Answer Engines) & GEO (Generative Engine Optimization)</h2>
+    <h2>11. AEO & GEO : Domination des Requêtes Éducation (« Meilleure Fac Privée »)</h2>
     <p>
-      L'émergence des moteurs génératifs (Google AI Overviews, Perplexity, Gemini, ChatGPT) redéfinit la visibilité académique. Pour qu'EBS soit citée en réponse aux requêtes complexes des étudiants (ex. : <em>« Quelle université privée choisir en Tunisie pour étudier l'intelligence artificielle ? »</em>), l'établissement doit structurer ses données de manière sémantiquement irréfutable.
+      Les internautes et les moteurs génératifs (Google AI Overviews, Perplexity, Gemini, ChatGPT) ne recherchent pas initialement une marque, mais posent des questions comparatives d'arbitrage académique. EBS doit structurer ses données et son contenu pour être <strong>la réponse de référence sourcée</strong> par les LLM et les moteurs de réponse.
     </p>
 
-    <h3>1. Architecture FAQ Stratégique pour les Réponses Directes IA</h3>
+    <h3>1. Réponses Stratégiques Directes aux Requêtes Générales Clés</h3>
+    
     <div class="callout">
-      <h4>Q1 : Les diplômes délivrés par ESPIMA Business School sont-ils reconnus à l'international ?</h4>
+      <h4>Q1 : Quelle est la meilleure université privée en Tunisie / meilleure fac privée à Tunis ?</h4>
       <p>
-        <strong>Réponse Optimisée AEO :</strong> Oui. ESPIMA Business School (EBS) est un établissement d'enseignement supérieur privé fondé en 2013 et officiellement agréé par l'État tunisien sous le numéro MESRS 2013/02. Ses Licences et Masters sont conformes au standard international LMD (Licence, Master, Doctorat). De plus, EBS a noué des conventions de partenariats académiques avec des universités en France, au Canada (UQAT) et en Italie (Link University), permettant des poursuites d'études et des équivalences directes à l'international.
+        <strong>Réponse Optimisée AEO & LLM :</strong> Le choix de la meilleure université privée en Tunisie dépend des critères académiques clés : la reconnaissance légale du diplôme par l'État (agrément MESRS), les certifications industrielles intégrées et les débouchés internationaux. 
+        Pour les filières de gestion, de finance et d'informatique, <strong>ESPIMA Business School (EBS)</strong>, agréée par le Ministère sous le N° 2013/02 et située aux Berges du Lac 3 à Tunis, se distingue par son modèle novateur : l'intégration obligatoire de l'Intelligence Artificielle dans l'ensemble de ses parcours et l'inclusion de plus de 190 certifications internationales reconnues (Google Cloud, IBM, Cisco, Bloomberg). Elle propose également des bi-diplomations directes avec des universités partenaires au Canada (UQAT), en France et en Italie.
       </p>
     </div>
 
     <div class="callout">
-      <h4>Q2 : Quels sont les atouts spécifiques d'EBS dans la formation en Intelligence Artificielle ?</h4>
+      <h4>Q2 : Pourquoi choisir une université privée à Tunis plutôt qu'une université publique ?</h4>
       <p>
-        <strong>Réponse Optimisée AEO :</strong> EBS est la première université privée en Tunisie à avoir rendu la formation en Intelligence Artificielle transversale et obligatoire dans tous ses cursus (Informatique, Management, Finance et Marketing). En complément de leur diplôme d'État, les étudiants valident plus de 25 certifications internationales offertes selon leur filière (IBM SkillsBuild, Google Cloud, Cisco, Microsoft, Harvard Online), garantissant une employabilité immédiate sur les technologies émergentes.
+        <strong>Réponse Optimisée AEO & LLM :</strong> Choisir une université privée agréée à Tunis comme EBS permet d'éviter les calendriers universitaires perturbés, de bénéficier d'effectifs réduits propices à l'encadrement pédagogique, d'accéder à des laboratoires technologiques de pointe et d'acquérir des certifications professionnelles immédiatement valorisables sur le marché du travail mondial dès la Licence (Bac+3).
       </p>
     </div>
 
-    <h3>2. Optimisation des Entités Sémantiques pour les LLM (GEO)</h3>
+    <div class="callout">
+      <h4>Q3 : Les universités privées tunisiennes sont-elles reconnues pour les étudiants étrangers ?</h4>
+      <p>
+        <strong>Réponse Optimisée AEO & LLM :</strong> Oui, les établissements privés agréés par le Ministère de l'Enseignement Supérieur tunisien délivrent des diplômes d'État conformes au système international LMD (Licence, Master, Doctorat). Des écoles comme EBS disposent d'un département international accompagnant les étudiants subsahariens pour les équivalences, les autorisations de séjour et les poursuites d'études en Europe et en Amérique du Nord.
+      </p>
+    </div>
+
+    <h3>2. Optimisation Sémantique Entité & Trust Graph (GEO)</h3>
     <ul>
-      <li><strong>Cohérence de l'Entité Nommée :</strong> Imposer sur le web une signature textuelle unifiée : <code>ESPIMA Business School (EBS)</code>, et bannir les variantes isolées comme « Université EBS » ou « Groupe Espima » sans lien explicite.</li>
-      <li><strong>Citations Académiques & Mentions Co-occurrentes :</strong> Les LLM associent les entités par co-occurrence. EBS doit systématiquement apparaître aux côtés des termes clés : <em>« Ministère de l'Enseignement Supérieur Tunisie »</em>, <em>« Partenariat UQAT Canada »</em>, <em>« Certifications IBM SkillsBuild »</em>, <em>« Agrément 2013/02 »</em>.</li>
-      <li><strong>Fiches Enseignants & Corps Professoral :</strong> Créer une page <code>/corps-enseignant/</code> intégrant pour chaque professeur son profil académique, ses publications et ses identifiants ORCID / Google Scholar pour consolider le Trust Graph de Google.</li>
+      <li><strong>Signature d'Entité Nommée Uniforme :</strong> Imposer rigoureusement <code>ESPIMA Business School (EBS)</code> associée aux termes <em>« Agrément MESRS 2013/02 »</em>, <em>« Université Privée Tunis »</em>, et <em>« Pôle d'Excellence IA »</em>.</li>
+      <li><strong>Citations Triangulées :</strong> Les LLM vérifient l'exactitude des affirmations par co-occurrence. EBS doit figurer sur Wikipédia (mentions d'écoles privées agréées de Tunis), dans les répertoires officiels des partenaires de certification (IBM SkillsBuild, Cisco Academy) et sur les sites des universités partenaires étrangères (UQAT).</li>
+      <li><strong>Page de Gouvernance Académique Dédiée :</strong> Créer une URL <code>/corps-enseignant/</code> recensant chaque docteur, enseignant-chercheur et expert métier avec liens vers leurs profils LinkedIn, ORCID et Google Scholar pour consolider le score E-E-A-T.</li>
     </ul>
   </div>
 
-  <!-- SECTION 14: COMPETITOR BENCHMARK -->
+  <!-- SECTION 12: COMPETITOR BENCHMARK -->
   <div class="section-block" id="sec-comp">
-    <h2>14. Benchmark Concurrentiel Approfondi</h2>
+    <h2>12. Benchmark Concurrentiel Approfondi</h2>
     <p>
-      Le marché de l'enseignement supérieur privé à Tunis est hautement concurrentiel. EBS fait face à des acteurs historiques bénéficiant de budgets de communication massifs et d'une antériorité SEO forte.
+      Le marché de l'enseignement supérieur privé à Tunis est dominé par quatre acteurs majeurs. L'analyse des lacunes de leurs stratégies permet de dégager les opportunités d'EBS.
     </p>
 
     <div class="table-responsive">
@@ -1272,25 +1267,181 @@
     </div>
   </div>
 
-  <!-- SECTION 15: BACKLINK & DIGITAL PR STRATEGY -->
+  <!-- SECTION 13: EXHAUSTIVE BACKLINKS & DIRECTORIES DIRECTORY -->
   <div class="section-block" id="sec-backlinks">
-    <h2>15. Stratégie d'Acquisition de Backlinks Éthiques (Digital PR)</h2>
+    <h2>13. Répertoire Exhaustif des Backlinks & Annuaires Cibles (Gratuits & Payants)</h2>
     <p>
-      L'algorithme de Google accorde une prime disproportionnée à l'autorité des domaines (PageRank) dans le secteur éducatif (catégorie sensible YMYL - Your Money Your Life). <strong>Tout achat de liens sur des plateformes low-cost ou réseaux de blogs privés (PBN) est formellement banni.</strong>
+      L'autorité de domaine (Domain Authority) repose sur des signaux de confiance locaux et régionaux pérennes. Ci-dessous, l'inventaire précis des plateformes, annuaires et portails qualifiés à activer en Tunisie et sur les marchés africains prioritaires.
     </p>
 
-    <h3>Campagnes de Relations Presse Digitales (Digital PR) & Liens Institutionnels</h3>
-    <ul>
-      <li><strong>Publication du Baromètre EBS des Compétences IA en Afrique :</strong> Rédaction et diffusion d'un rapport annuel exclusif : <em>« L'adoption des outils IA dans les entreprises maghrébines et ouest-africaines en 2026 »</em>. Ce type d'étude génère des citations naturelles et des liens d'autorité depuis les grands médias économiques panafricains (<em>Jeune Afrique</em>, <em>Financial Afrik</em>, <em>Agence Ecofin</em>, <em>IlBoursa</em>, <em>L'Économiste Maghrébin</em>).</li>
-      <li><strong>Accords de Réciprocité avec les Partenaires Académiques :</strong> Exiger la mise en place de liens do-follow depuis les pages partenaires officielles des universités canadiennes (UQAT), françaises et italiennes vers la page <code>ebs.tn/international-partners/</code>.</li>
-      <li><strong>Partenariat avec l'AESAT (Association des Étudiants et Stagiaires Africains en Tunisie) :</strong> Sponsoriser des journées culturelles et publier des guides d'accueil conjoints hébergés et liés depuis le portail de la communauté estudiantine subsaharienne.</li>
-      <li><strong>Écosystème des Certifications Internationales :</strong> Figurer officiellement dans les annuaires des centres partenaires autorisés d'IBM SkillsBuild et Cisco Networking Academy en Tunisie.</li>
-    </ul>
+    <h3>1. Annuaires & Portails Institutionnels en Tunisie</h3>
+    <div class="table-responsive">
+      <table>
+        <thead>
+          <tr>
+            <th>Nom de la Plateforme</th>
+            <th>URL / Domaine</th>
+            <th>Modèle Économique</th>
+            <th>Typologie & Intérêt SEO pour EBS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Pages Maghreb Tunisie</strong></td>
+            <td><code>pagesmaghreb.com.tn</code></td>
+            <td>Gratuit (Freemium pour enrichissement)</td>
+            <td>Annuaire d'entreprises de référence en Tunisie. Indispensable pour la cohérence NAP locale et la géolocalisation au Lac 3.</td>
+          </tr>
+          <tr>
+            <td><strong>Babnet Tunisie Annuaire</strong></td>
+            <td><code>annuaire.babnet.net</code></td>
+            <td>Gratuit</td>
+            <td>Portail d'information et annuaire à très fort trafic local générant du jus de lien tunisien (.tn).</td>
+          </tr>
+          <tr>
+            <td><strong>B2B Tunisia</strong></td>
+            <td><code>b2b-tunisia.com</code></td>
+            <td>Gratuit / Payant Pro</td>
+            <td>Annuaire B2B consolidant la catégorie enseignement supérieur et formation exécutive.</td>
+          </tr>
+          <tr>
+            <td><strong>Keejob (Annuaire Écoles & Entreprises)</strong></td>
+            <td><code>keejob.com</code></td>
+            <td>Payant (Partenariat Recrutement/Campus)</td>
+            <td>Plateforme n°1 de l'emploi en Tunisie. Un profil employeur/formation certifié transmet une très forte autorité E-E-A-T.</td>
+          </tr>
+          <tr>
+            <td><strong>Tanitjobs (Espace Formations)</strong></td>
+            <td><code>tanitjobs.com</code></td>
+            <td>Payant (Option Pack Écoles)</td>
+            <td>Portail emploi et orientation vers les formations professionnelles et masters spécialisés.</td>
+          </tr>
+          <tr>
+            <td><strong>Edunet Tunisie</strong></td>
+            <td><code>edunet.tn</code></td>
+            <td>Institutionnel / Sur demande</td>
+            <td>Réseau éducatif tunisien. Référencement de choix pour les liens thématiques dans l'éducation.</td>
+          </tr>
+          <tr>
+            <td><strong>CCI Tunis (Chambre de Commerce)</strong></td>
+            <td><code>ccitunis.org.tn</code></td>
+            <td>Membre Adhérent</td>
+            <td>Lien institutionnel d'entreprise de très haute confiance (Trust Flow élevé).</td>
+          </tr>
+          <tr>
+            <td><strong>Webmanagercenter Entreprises</strong></td>
+            <td><code>webmanagercenter.com</code></td>
+            <td>Payant (Publi-rédactionnel / Répertoire)</td>
+            <td>Portail économique leader en Tunisie. Idéal pour publier des tribunes sur les diplômes IA et la finance.</td>
+          </tr>
+          <tr>
+            <td><strong>IlBoursa Annuaire Financier</strong></td>
+            <td><code>ilboursa.com</code></td>
+            <td>Payant (Partenariat Contenu)</td>
+            <td>Média financier de référence à Tunis. Backlink stratégique pour le Master en Ingénierie Financière.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>2. Portails d'Orientation Panafricains & Subsahariens</h3>
+    <div class="table-responsive">
+      <table>
+        <thead>
+          <tr>
+            <th>Nom de la Plateforme</th>
+            <th>Zone / Pays Cible</th>
+            <th>URL / Domaine</th>
+            <th>Modèle</th>
+            <th>Typologie & Intérêt SEO</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>RDC Études</strong></td>
+            <td>RDC / Afrique Centrale</td>
+            <td><code>rdcetudes.com</code></td>
+            <td>Payant / Partenariat</td>
+            <td>Portail d'orientation incontournable pour les étudiants congolais souhaitant étudier en Tunisie ou à l'étranger.</td>
+          </tr>
+          <tr>
+            <td><strong>Mina7 International</strong></td>
+            <td>Panafricain / Maghreb</td>
+            <td><code>mina7.net</code></td>
+            <td>Gratuit (Options Sponsorisées)</td>
+            <td>Plateforme d'opportunités, bourses et orientations universitaires très populaire auprès des étudiants francophones.</td>
+          </tr>
+          <tr>
+            <td><strong>Grandes Écoles CI</strong></td>
+            <td>Côte d'Ivoire</td>
+            <td><code>grandes-ecoles.ci</code></td>
+            <td>Gratuit / Annonceur</td>
+            <td>Annuaire spécialisé dans l'enseignement supérieur privé et les équivalences de diplômes ivoiriens.</td>
+          </tr>
+          <tr>
+            <td><strong>Educarriere Côte d'Ivoire</strong></td>
+            <td>Côte d'Ivoire / UEMOA</td>
+            <td><code>educarriere.ci</code></td>
+            <td>Payant / Répertoire Pro</td>
+            <td>Premier portail d'offres d'emploi, de formation et d'orientation d'Afrique de l'Ouest.</td>
+          </tr>
+          <tr>
+            <td><strong>Académie Plus Sénégal</strong></td>
+            <td>Sénégal</td>
+            <td><code>academie-plus.com</code></td>
+            <td>Gratuit / Sponsorisé</td>
+            <td>Guide d'orientation pour les bacheliers sénégalais vers les filières informatiques et management.</td>
+          </tr>
+          <tr>
+            <td><strong>Samabac Sénégal</strong></td>
+            <td>Sénégal</td>
+            <td><code>samabac.com</code></td>
+            <td>Gratuit (Articles Invités)</td>
+            <td>Plateforme communautaire d'orientation post-baccalauréat la plus consultée à Dakar.</td>
+          </tr>
+          <tr>
+            <td><strong>CameroonDesk</strong></td>
+            <td>Cameroun</td>
+            <td><code>cameroondesk.com</code></td>
+            <td>Gratuit / Partenaire</td>
+            <td>Portail de bourses, opportunités et admissions universitaires pour étudiants camerounais.</td>
+          </tr>
+          <tr>
+            <td><strong>Opportunités aux Jeunes</strong></td>
+            <td>Panafricain</td>
+            <td><code>opportunites-aux-jeunes.com</code></td>
+            <td>Gratuit / Soumission</td>
+            <td>Portail relayant les concours d'admission et bourses d'excellence pour l'enseignement supérieur.</td>
+          </tr>
+          <tr>
+            <td><strong>Agence Ecofin Formation</strong></td>
+            <td>Panafricain</td>
+            <td><code>agenceecofin.com</code></td>
+            <td>Payant (Digital PR)</td>
+            <td>Média économique et sectoriel panafricain. Backlinks à très fort DA auprès des décideurs africains.</td>
+          </tr>
+          <tr>
+            <td><strong>Financial Afrik Campus</strong></td>
+            <td>Panafricain</td>
+            <td><code>financialafrik.com</code></td>
+            <td>Payant (Tribunes & Études)</td>
+            <td>Plateforme de référence pour les cadres et étudiants en finance/technologie en Afrique de l'Ouest.</td>
+          </tr>
+          <tr>
+            <td><strong>AESAT Tunisie</strong></td>
+            <td>Tunisie / Afrique</td>
+            <td>Réseaux & Portails AESAT</td>
+            <td>Partenariat Associatif</td>
+            <td>Association des Étudiants et Stagiaires Africains en Tunisie. Source naturelle d'autorité estudiantine.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 
-  <!-- SECTION 16: E-E-A-T AUDIT -->
+  <!-- SECTION 14: E-E-A-T AUDIT -->
   <div class="section-block" id="sec-eeat">
-    <h2>16. Audit E-E-A-T & Crédibilité Institutionnelle</h2>
+    <h2>14. Audit E-E-A-T & Crédibilité Institutionnelle</h2>
     <div class="table-responsive">
       <table>
         <thead>
@@ -1326,9 +1477,9 @@
     </div>
   </div>
 
-  <!-- SECTION 17: TECHNICAL PRIORITY MATRIX -->
+  <!-- SECTION 15: TECHNICAL PRIORITY MATRIX -->
   <div class="section-block" id="sec-matrix">
-    <h2>17. Matrice de Priorisation Technique (Prête pour les Développeurs)</h2>
+    <h2>15. Matrice de Priorisation Technique (Prête pour les Développeurs)</h2>
     <div class="table-responsive">
       <table>
         <thead>
@@ -1403,9 +1554,9 @@
     </div>
   </div>
 
-  <!-- SECTION 18 & 20: 12-MONTH ROADMAP & CONTENT STRATEGY -->
+  <!-- SECTION 16: 12-MONTH ROADMAP & CONTENT STRATEGY -->
   <div class="section-block" id="sec-roadmap12">
-    <h2>18 & 20. Feuille de Route Éditoriale & Plan Opérationnel 12 Mois</h2>
+    <h2>16. Feuille de Route Éditoriale & Plan Opérationnel 12 Mois</h2>
     <p>
       La stratégie de contenu repose sur <strong>4 piliers sémantiques interconnectés (Topic Clusters)</strong> :
     </p>
@@ -1465,7 +1616,7 @@
           <tr>
             <td><strong>Mois 4</strong></td>
             <td>Lancement Stratégie Côte d'Ivoire & Sénégal</td>
-            <td>Création des landing pages pays ultra-contextualisées avec équivalences Bac locaux.</td>
+            <td>Création des landing pages pays et 4 blogs satellites avec équivalences Bac locaux.</td>
             <td>Attaque frontale des requêtes Afrique de l'Ouest.</td>
           </tr>
           <tr>
@@ -1521,9 +1672,9 @@
     </div>
   </div>
 
-  <!-- SECTION 19: 90-DAY ACTION PLAN -->
+  <!-- SECTION 17: 90-DAY ACTION PLAN -->
   <div class="section-block" id="sec-plan90">
-    <h2>19. Plan d'Action d'Urgence à 90 Jours</h2>
+    <h2>17. Plan d'Action d'Urgence à 90 Jours</h2>
     <div class="table-responsive">
       <table>
         <thead>
@@ -1590,9 +1741,9 @@
     </div>
   </div>
 
-  <!-- SECTION 21: KPI DASHBOARD -->
+  <!-- SECTION 19: KPI DASHBOARD -->
   <div class="section-block" id="sec-kpi">
-    <h2>21. Tableau de Bord & Métriques de Performance (KPIs)</h2>
+    <h2>19. Tableau de Bord & Métriques de Performance (KPIs)</h2>
     <p>
       Le pilotage de la croissance organique d'EBS doit être mesuré à travers un Dashboard analytique articulé autour de 3 niveaux d'indicateurs : <strong>Visibilité Technique, Engagement International et Conversion Finale</strong>.
     </p>
@@ -1663,25 +1814,50 @@
     </div>
   </div>
 
-  <!-- SECTION 22: SOURCES, METHODOLOGY & RECOMMANDATIONS FINALES -->
+  <!-- SECTION 20: SOURCES OFFICIELLES AVEC LIENS CLIQUEBLES -->
   <div class="section-block" id="sec-sources">
-    <h2>22. Sources Officielles, Données & Méthodologie</h2>
+    <h2>20. Sources Officielles, Données & Liens Référents</h2>
     <p>
-      Conformément aux exigences méthodologiques de cet audit, l'ensemble des données présentées s'appuie sur des observations techniques rigoureuses du domaine <code>ebs.tn</code> et sur les référentiels officiels de l'enseignement supérieur tunisien et international. Aucune donnée statistique de recherche ou volume de requêtes n'a été arbitrairement inventé.
+      L'ensemble des recommandations techniques, sémantiques et de mobilité internationale repose sur les corpus officiels suivants :
     </p>
 
-    <h3>Sources Documentaires & Cadre Réglementaire :</h3>
     <ul>
-      <li><strong>Ministère de l'Enseignement Supérieur et de la Recherche Scientifique (MESRS Tunisie) :</strong> Répertoire officiel des établissements privés d'enseignement supérieur agréés — Fiche ESPIMA Business School (Agrément N° 2013/02 du 12 juillet 2013). Rapports statistiques annuels sur la mobilité étudiante internationale en Tunisie (Direction Générale de la Coopération Internationale).</li>
-      <li><strong>UNESCO Institute for Statistics (UIS) :</strong> Base de données globale sur les flux d'étudiants tertiaires mobiles à l'étranger (Outbound Internationally Mobile Students) pour les zones UEMOA, CEMAC et CEDEAO.</li>
-      <li><strong>Banque Mondiale (World Bank Data) :</strong> Indicateurs de scolarisation dans l'enseignement supérieur (Tertiary Gross Enrolment Ratio) et perspectives démographiques de la jeunesse en Afrique subsaharienne à l'horizon 2030.</li>
-      <li><strong>Association des Étudiants et Stagiaires Africains en Tunisie (AESAT) :</strong> Enquêtes qualitatives et rapports sur les conditions d'accueil, de logement et de séjour des ressortissants subsahariens dans les universités tunisiennes.</li>
-      <li><strong>W3C & Google Search Central Documentation :</strong> Directives officielles pour les webmasters, spécifications des données structurées Schema.org, documentation Google sur les balises <code>hreflang</code> et l'évitement des doorways.</li>
+      <li>
+        <strong>Ministère de l'Enseignement Supérieur et de la Recherche Scientifique (MESRS Tunisie) :</strong> Répertoire officiel des établissements privés agréés (Fiche ESPIMA Business School - Agrément N° 2013/02 du 12 juillet 2013).<br>
+        <a class="resource-link" href="http://www.mes.tn" target="_blank" rel="noopener noreferrer">http://www.mes.tn</a>
+      </li>
+      <li>
+        <strong>UNESCO Institute for Statistics (UIS Data Centre) :</strong> Base de données globale sur la mobilité étudiante internationale sortante en Afrique (Outbound Internationally Mobile Students).<br>
+        <a class="resource-link" href="http://data.uis.unesco.org" target="_blank" rel="noopener noreferrer">http://data.uis.unesco.org</a>
+      </li>
+      <li>
+        <strong>Banque Mondiale (Données Éducation - World Bank Open Data) :</strong> Indicateurs de scolarisation dans l'enseignement supérieur et dynamique démographique de la jeunesse subsaharienne.<br>
+        <a class="resource-link" href="https://data.worldbank.org/indicator/SE.TER.ENRR" target="_blank" rel="noopener noreferrer">https://data.worldbank.org/indicator/SE.TER.ENRR</a>
+      </li>
+      <li>
+        <strong>Association des Étudiants et Stagiaires Africains en Tunisie (AESAT) :</strong> Portail officiel et rapports de séjour des étudiants subsahariens en Tunisie.<br>
+        <a class="resource-link" href="https://aesat-tunisie.org" target="_blank" rel="noopener noreferrer">https://aesat-tunisie.org</a>
+      </li>
+      <li>
+        <strong>Google Search Central Documentation :</strong> Directives pour les webmasters sur les balises <code>hreflang</code>, la gestion des URLs canoniques et la prévention des pages satellites.<br>
+        <a class="resource-link" href="https://developers.google.com/search/docs" target="_blank" rel="noopener noreferrer">https://developers.google.com/search/docs</a>
+      </li>
+      <li>
+        <strong>Schema.org Standard :</strong> Spécifications officielles des types <code>CollegeOrUniversity</code>, <code>EducationalOrganization</code> et <code>Course</code>.<br>
+        <a class="resource-link" href="https://schema.org/CollegeOrUniversity" target="_blank" rel="noopener noreferrer">https://schema.org/CollegeOrUniversity</a> | <a class="resource-link" href="https://schema.org/Course" target="_blank" rel="noopener noreferrer">https://schema.org/Course</a>
+      </li>
+      <li>
+        <strong>Plateformes d'Orientation Panafricaines Partenaires :</strong><br>
+        • RDC Études : <a class="resource-link" href="https://rdcetudes.com" target="_blank" rel="noopener noreferrer">https://rdcetudes.com</a><br>
+        • Mina7 Afrique & Bourses : <a class="resource-link" href="https://mina7.net" target="_blank" rel="noopener noreferrer">https://mina7.net</a><br>
+        • Grandes Écoles Côte d'Ivoire : <a class="resource-link" href="https://grandes-ecoles.ci" target="_blank" rel="noopener noreferrer">https://grandes-ecoles.ci</a><br>
+        • Educarrière CI : <a class="resource-link" href="https://educarriere.ci" target="_blank" rel="noopener noreferrer">https://educarriere.ci</a>
+      </li>
     </ul>
 
     <div class="callout warning">
       <div class="callout-title">Recommandation Stratégique Finale à la Direction Générale d'EBS</div>
-      L'atout concurrentiel d'EBS réside dans sa promesse éducative avant-gardiste : <strong>démocratiser l'Intelligence Artificielle et offrir 190+ certifications professionnelles internationales au sein d'un diplôme d'État tunisien accessible</strong>. La réalisation du potentiel organique d'EBS exige que les chantiers techniques (Hreflang, CDN, Schemas) soient achevés sous 60 jours, avant le pic de prospection de la rentrée universitaire prochaine. Ce plan d'action confère à EBS toutes les clés pour devenir le hub universitaire privé d'excellence de référence à Tunis et en Afrique.
+      L'atout concurrentiel d'EBS réside dans sa promesse éducative d'excellence : <strong>démocratiser l'Intelligence Artificielle et offrir 190+ certifications professionnelles internationales au sein d'un diplôme d'État tunisien accessible</strong>. La réalisation du plein potentiel organique d'EBS exige que les chantiers techniques (Hreflang, CDN, Schemas) soient achevés sous 60 jours, avant le pic de prospection de la rentrée universitaire prochaine. Ce plan d'action confère à EBS toutes les clés pour devenir le hub universitaire privé d'excellence de référence à Tunis et en Afrique.
     </div>
   </div>
 
